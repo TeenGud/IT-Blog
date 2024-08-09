@@ -1,8 +1,9 @@
 import React from 'react'
-import BlockContent from "@sanity/block-content-to-react"
 import cl from 'classnames'
 import styles from './page.module.css'
 import { DATASET, PROJECT_ID } from '@/sanity/sanity-utils'
+
+const BlockContent = require('@sanity/block-content-to-react')
 
 type ContentType = {
   className: string | undefined;
