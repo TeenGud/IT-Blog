@@ -1,0 +1,14 @@
+.postGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .postGrid {
+        grid-template-columns: 1fr;
+    }
+}

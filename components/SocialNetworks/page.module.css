@@ -1,0 +1,23 @@
+.socialNetworks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.listLink > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: none;
+    transition: box-shadow .3s;
+}
+.listLink > img:hover {
+    box-shadow: 14px 16px 32px -18px rgba(34, 60, 80, 0.5);
+}
+@media screen and (max-width: 800px) {
+    .socialNetworks {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 30px;
+    }
+    
+}

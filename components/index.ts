@@ -1,0 +1,11 @@
+export { default as  Article} from './Article/page';
+export { default as Button } from './Button/page';
+export { default as BuyMeACoffe } from './BuyMeACoffe/page';
+export { default as Content } from './Content/page';
+export { default as Cover } from './Cover/page';
+export { default as Post } from './Post/page';
+export { default as PostGrid } from './PostGrid/page';
+export { default as ScreenEgg } from './ScreenEgg/page';
+export { default as Section } from './Section/page';
+export { default as SocialNetworks } from './SocialNetworks/page';
+export { default as Title } from './Title/page';

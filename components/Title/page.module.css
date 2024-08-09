@@ -1,0 +1,22 @@
+.title {
+    font-size: 5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+
+}
+.block {
+    display: block;
+    height: 30px;
+    width: auto;
+    max-width: 1000px;
+    background-color: violet;
+    border-radius: 2px;
+    z-index: -2;
+    position: relative;
+    margin-top: 100px;
+}
+.titleSmall {
+    font-size: 1rem;
+}

@@ -1,0 +1,15 @@
+.post {
+    padding: 1rem 8rem;
+}
+
+.postTitle {
+    font-size: 2.8rem;
+    bottom: -4px;
+
+}
+.block {
+    position: relative;
+}
+.postDate {
+    margin-top: 1rem;
+}
